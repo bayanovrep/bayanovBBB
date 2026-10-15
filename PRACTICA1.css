@@ -7,7 +7,7 @@ body {
   background-color: #f5e0e5;
   position: relative;
   font-family: "Roboto", sans-serif;
-  background-image: url ("https://raw.githack.com/bayanovrep/bayanovBBB/main/euphoriaCSS%20(1).jpg");
+  background-image: url ("https://raw.githack.com/bayanovrep/bayanovBBB/main/euphoriaCSS.jpg");
 }
 
 
@@ -21,7 +21,7 @@ body {
   height: 530px;
   border-radius: 15px;
   box-shadow: 0 15px 20px 10px #A9A9A9;
-  background-image: url ("https://raw.githack.com/bayanovrep/bayanovBBB/main/euphoriaCSS%20(1).jpg");
+  background-image: url ("https://raw.githack.com/bayanovrep/bayanovBBB/main/euphoriaCSS.jpg");
 }
 
 .player input[type=range] {
