@@ -7,7 +7,7 @@ body {
   background-color: #f5e0e5;
   position: relative;
   font-family: "Roboto", sans-serif;
-  background-image: url("https://raw.githack.com/bayanovrep/bayanovBBB/main/euphoriaCSS.jpg");
+  background-image: url ("https://raw.githack.com/bayanovrep/bayanovBBB/main/euphoriaCSS.jpg");
 }
 
 
@@ -21,7 +21,7 @@ body {
   height: 530px;
   border-radius: 15px;
   box-shadow: 0 15px 20px 10px #A9A9A9;
-  background-image: url("https://raw.githack.com/bayanovrep/bayanovBBB/main/euphoriaCSS.jpg");
+  background-image: url ("https://raw.githack.com/bayanovrep/bayanovBBB/main/euphoriaCSS.jpg");
 }
 
 .player input[type=range] {
@@ -50,7 +50,7 @@ body {
   
 .player input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none !important;
-  background: #FF0000;
+  background: #696969;
   height: 5px;
   width: 5px;
   border-radius: 50%;
