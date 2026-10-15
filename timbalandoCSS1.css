@@ -10,7 +10,6 @@ body {
   background-image: url("https://raw.githack.com/bayanovrep/bayanovBBB/main/office-96107_1280.jpg");
 }
 
-
 .player {
   position: absolute;
   left: 50%;
@@ -22,8 +21,6 @@ body {
   box-shadow: 0 15px 20px 10px #FFB6C1; 
   background-image: url ("https://raw.githack.com/bayanovrep/bayanovBBB/main/euphoriaCSS.jpg");
 }
-
-3) Задаем логику отображения инпутов и цвет строки воспроизводимого трека - укажите свой:
 
 .player input[type=range] {
   -webkit-appearance: none !important;
@@ -72,8 +69,6 @@ body {
   width: 8px;
   border-radius: 100%;
 }
-
-4) Добавляем обложку плеера - продублируйте здесь цвет основной тени:
   
 .player .cover {
   width: 150px;
@@ -87,8 +82,6 @@ body {
   box-shadow: 0 15px 20px 10px #FFB6C1;
  
 }
-
-5) Задаем параметры обложки и инфополя плеера:
   
 .player .cover img {
   width: 100%;
@@ -103,16 +96,12 @@ body {
   transform: translateX(-50%);
   text-align: center;
 }
-
-6) Теперь цвет шрифта в названии. Укажите свой:
   
 .player .info .title {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
 }
-
-7) Добавляем кнопки в плеер. При необходимости можете изменить их цвета:
   
 .player .info .singer {
   font-size: 14px;
@@ -139,8 +128,7 @@ body {
   color: RoyalBlue;
 }
 
-8) Инпуты громкости:
-  
+ 
 .player .volume-box {
   display: none;
   position: absolute;
@@ -200,8 +188,6 @@ body {
   height: 5px;
   width: 7px;
 }
-
-9) Поля времени со счетчиком минут и секунд:
   
 .player .music-box .current-time {
   position: absolute;
