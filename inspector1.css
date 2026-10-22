@@ -1,5 +1,5 @@
 
-inspector { 
+.inspector { 
 
 width: 100%;
 
@@ -1017,6 +1017,7 @@ html.visual body {
   .viz-cover-bottom-note {
 
     display: none;
+
 
   }
 
