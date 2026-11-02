@@ -38,7 +38,8 @@ const palette = [
 for (let g = 0; g < groupCount; g++) {
 	const video = document.createElement("video");
 	video.crossOrigin = "anonymous";
-	video.src = "https://raw.githubusercontent.com/bayanovrep/bayanovBBB/main/bezfona.webm"
+	video.src = 
+		"https://raw.githubusercontent.com/bayanovrep/bayanovBBB/main/bezfona.webm"
 	video.loop = true;
 	video.muted = true;
 	video.playbackRate = 0.010 + Math.random() * 1.0;
@@ -91,7 +92,7 @@ for (let g = 0; g < groupCount; g++) {
 
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://raw.githubusercontent.com/bayanovrep/bayanovBBB/refs/heads/main/ferndale_studio_05_1k.exr"
+	"https://raw.githubusercontent.com/bayanovrep/bayanovBBB/refs/heads/main/ferndale_studio_05_1k%20(1).hdr"
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
