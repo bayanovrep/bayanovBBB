@@ -92,7 +92,7 @@ for (let g = 0; g < groupCount; g++) {
 
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://raw.githubusercontent.com/bayanovrep/bayanovBBB/refs/heads/main/ferndale_studio_05_1k%20(1).hdr"
+	"https://raw.githubusercontent.com/bayanovrep/bayanovBBB/refs/heads/main/sunny_rose_garden_1k.hdr"
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
