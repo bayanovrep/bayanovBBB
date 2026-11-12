@@ -1,7 +1,5 @@
 body {
 
-background:url('https://raw.githack.com/bayanovrep/bayanovBBB/main/GTAFON.jpg')
-
   margin: 0;
 
   padding: 0;
@@ -23,6 +21,8 @@ background:url('https://raw.githack.com/bayanovrep/bayanovBBB/main/GTAFON.jpg')
   height: 100vh;
 
   display: flex;
+  
+background:url('https://raw.githack.com/bayanovrep/bayanovBBB/main/GTAFON.jpg');
 
     }
 
